@@ -1,0 +1,21 @@
+﻿<Window x:Class="Pra.HerhalingArrays.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.HerhalingArrays.WPF"
+        mc:Ignorable="d"
+        Title="Herhalingsoefening arrays" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstDisplay" HorizontalAlignment="Left" Height="399" Margin="497,10,0,0" VerticalAlignment="Top" Width="285"/>
+        <Button x:Name="btnArray1" Content="01. Array van 10 ints" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,14,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray1_Click"/>
+        <Button x:Name="btnArray2" Content="02. Array van 10 ints gevuld met random getallen" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,52,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray2_Click" />
+        <Button x:Name="btnArray3" Content="03. Array van random aantal ints gevuld met random getallen" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,90,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray3_Click"/>
+        <Button x:Name="btnArray4" Content="04. Array van random aantal ints gevuld met random getallen, gesorteerd" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,128,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray4_Click"/>
+        <Button x:Name="btnArray5" Content="05. Array van random aantal ints gevuld met random getallen, aflopend gesorteerd" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,166,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray5_Click"/>
+        <Button x:Name="btnArray6" Content="06. Array van ints onmiddellijk zelf een waarde toekennen" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,222,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray6_Click"/>
+        <Button x:Name="btnArray7" Content="07. Arrays met 2 dimensies" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,273,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray7_Click"/>
+        <Button x:Name="btnArray8" Content="08. Arrays met 2 dimensies onmiddellijk zelf een waarde toekennen" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Height="33" Margin="17,311,0,0" VerticalAlignment="Top" Width="458" Click="BtnArray8_Click"/>
+
+    </Grid>
+</Window>
